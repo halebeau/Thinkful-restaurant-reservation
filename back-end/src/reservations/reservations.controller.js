@@ -73,10 +73,10 @@ async function validateBody(request, response, next) {
 }
 
 /** checks to ensure that the reservation is:
- * in the future
- * on a day that the restaurant is open
- * during the restaurant's open hours
- */
+  * in the future
+  * on a day that the restaurant is open
+  * during the restaurant's open hours
+*/
 async function validateDate(request, response, next) {
   const reserveDate = new Date(
     `${request.body.data.reservation_date}T${request.body.data.reservation_time}:00.000`

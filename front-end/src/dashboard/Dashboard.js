@@ -64,13 +64,14 @@ function Dashboard({
   }
 
   return (
-    <div className="w-80 ml-2 pr-4 mr-4 pt-4" style={{ fontFamily: "Rubik" }}>
-      <h1
-        className="font-weight-bold d-flex justify-content-center text-center text-wrap mt-3"
-        style={{ fontSize: "50px" }}
-      >
-        Restaurant Reservation App
-      </h1>
+    <div
+      className="w-80 ml-2 pr-4 mr-4 pt-4"
+      style={{ fontFamily: "Rubik" }}
+    >
+
+<h1 className="font-weight-bold d-flex justify-content-center text-center text-wrap mt-3" style={{ fontSize: "50px" }}>
+          Restaurant Reservation App
+        </h1>
       <main>
         <h2 className="font-weight-bold d-flex justify-content-center mt-5 mb-4">
           Dashboard
@@ -103,7 +104,7 @@ function Dashboard({
           </button>
         </div>
         <h4 className="mt-4 font-weight-bold d-flex justify-content-center mb-2">
-          {date}
+        {date}
         </h4>
 
         <h3 className="mb-4 font-weight-bold">Reservations</h3>

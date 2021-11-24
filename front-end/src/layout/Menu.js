@@ -9,10 +9,7 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <div>
-      <nav
-        className="nav navbar-nav mt-3 bg-white"
-        style={{ position: "fixed", zIndex: "2" }}
-      >
+      <nav className="nav navbar-nav mt-3 bg-white" style={{ position: "fixed", zIndex: "2" }}>
         <ul className="nav navbar-nav">
           <li className="nav-item pl-1">
             <button
