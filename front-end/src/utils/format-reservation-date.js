@@ -14,6 +14,6 @@ function formatDate(reservation) {
  */
 export default function formatReservationDate(reservations) {
   return Array.isArray(reservations)
-    ? reservations.map(formatDate)
+    ? reservations.map(formatDate) 
     : formatDate(reservations);
 }
