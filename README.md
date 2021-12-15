@@ -21,7 +21,6 @@ For this project, I created an application for restaurants to allows users to cr
 - [ ] Fork & Clone the repostory
 - [ ] Run `npm install`
 - [ ] Run `npm run start:dev` to start
-- [ ] 
 
 ## Images
 ![restaurant-app-final-home-page](https://user-images.githubusercontent.com/80596387/141701747-f7487e7b-3c8a-4ae8-9145-88d0b54062b2.png)
