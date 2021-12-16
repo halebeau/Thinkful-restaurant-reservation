@@ -17,4 +17,3 @@ export default function formatReservationTime(reservations) {
     ? reservations.map(formatTime)
     : formatTime(reservations);
 }
- 
